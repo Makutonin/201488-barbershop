@@ -1,6 +1,6 @@
 # Учебный проект «Барбершоп»
 
-* Студент: [Makutonin Dmitrii](https://up.htmlacademy.ru/htmlcss/13/user/201488).
+* Студент: Макутонин Дмитрий [Makutonin Dmitrii](https://up.htmlacademy.ru/htmlcss/13/user/201488).
 
 ---
 
