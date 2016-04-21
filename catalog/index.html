@@ -1,127 +1,224 @@
-<!DOCTYPE html>
 <html>
   <head>
     <meta charset="utf-8">
-      <title>BARBERSHOP "Бородинский" каталог товаров</title>
-      <link rel="stylesheet" href="main.css">
+    <title>BARBERSHOP &laquo;Бородинский&raquo; каталог товаров
+    </title> 
+    <link rel="stylesheet" href="main.css"> <!--  -->
   </head>
-<body>
-  <container>
+  <body>
     <header>
-      <nav class="navigation">
-        <ul class="navigation-list">
-          <li class="navigation-item"><a href="#">ИНФОРМАЦИЯ</a></li>
-          <li class="navigation-item"><a href="#">НОВОСТИ</a></li>
-          <li class="navigation-item"><a href="#">ПРАЙС-ЛИСТ</a></li>
-          <li class="navigation-item"><a href="#">МАЗАГИН</a></li>
-          <li class="navigation-item"><a href="#">КОНТАКТЫ</a></li>
-        </ul>
+      <div class="container"> <!--  --><!-- ссылка с картинкой -->
+        <nav class="navigation">
+          <div class="navigation-item navigation-item-active">
+            <a href="#">ИНФОРМАЦИЯ
+            </a>
+          </div>
+          <div class="navigation-item navigation-item-active">
+            <a href="#">НОВОСТИ
+            </a>
+          </div> 
+          <div class="navigation-item navigation-item-active">
+            <a href="#">ПРАЙС-ЛИСТ
+            </a>
+          </div>
+          <div class="navigation-item navigation-item-active">
+            <a href="#">МАЗАГИН
+            </a>
+          </div>
+          <div class="navigation-item navigation-item-active">
+            <a href="#">КОНТАКТЫ
+            </a>
+          </div> 
         </nav>
-        <a class="exit" href="#"> <img scr="img/index-logo.png" width="10" height="10" alt="Выход"> Выход</a>
-	</header>
-  <main>
-    <section class="levels">
-      <h2>СРЕДСТВА ДЛЯ УХОДА</h2>
-        <ul class="levels">
-		  <li><a href="#">ГЛАВНАЯ</a></li>
-		  <li><a href="#">МАГАЗИН</a></li>
-		  <li><a href="#">СРЕДСТВА ДЛЯ УХОДА</a></li>
-        </ul>
-      </section>
-    <section class="producers">
-	  <h3>ПРОИЗВОДИТЕЛИ:</h3> 
-      <ul class="producers-list">
-        <li><input type="checkbox" id="BAXTEROFCALIFORNIA"><label for="BAXTEROFCALIFORNIA">BAXTER OF CALIFORNIA</label></li>
-        <li><input type="checkbox" id="MRNATTY"><label for="MRNATTY">MR NATTY</label></li>
-        <li><input type="checkbox" id="SUAVECITO"><label for="SUAVECITO">SUAVECITO</label></li>  
-        <li><input type="checkbox" id="MALIN+GOETZ"><label for="MALIN+GOETZ">MALIN+GOETZ</label></li>
-        <li><input type="checkbox" id="MURRAY'S"><label for="MURRAY'S">MURRAY'S</label></li>
-        <li><input type="checkbox" id="AMERICAN CREW"><label for="AMERICAN CREW">AMERICAN CREW</label></li>
-      </ul>
-	</section>
-	<section class="group-goods">
-	  <h3>ГРУППЫ ТОВАРОВ:</h3>
-	    <ul class="group-goods-дшые">
-		  <li><input type="checkbox" id="Shavingaccessories"><label for="Shavingaccessories">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ</label></li>
-		  <li><input type="checkbox" id="Meansforcare"><label for="Meansforcare">СРЕДСТВА ДЛЯ УХОДА</label></li>
-		  <li><input type="checkbox" id="Accessories"><label for="Accessories">АКСЕССУАРЫ</label></li>
-		</ul>
-	  <button class="show">ПОКАЗАТЬ</button>
-	</section>
-    <section class="goods">
-	<div class="goods-item">
-      <div>
-        <img scr="img/index-logo.png" width="10" height="10" alt="Набор для путешествия "BAXTER OF CALIFORNIA" "> Набор для путешествия "BAXTER OF CALIFORNIA" 
-        <div>2 900 РУБ.</div>
-        <a href="#">КУПИТЬ</a> 
+        <a class="enter" href="#">Вход
+        </a> 
       </div>
-	</div>
-	<div class="goods-item">
-      <div>
-        <img scr="img/index-logo.png" width="10" height="10" alt="Увлажняющий кондиционер "BAXTER OF CALIFORNIA""> Увлажняющий кондиционер "BAXTER OF CALIFORNIA" 
-        <div>750 РУБ.</div>
-		<a href="#">КУПИТЬ</a> 
+    </header>
+    <main>
+      <div class="container">
+        <section class="levels">
+          <h1>СРЕДСТВА ДЛЯ УХОДА
+          </h1>
+          <div class="levels-list">
+            <div class="levels-item levels-item-active">
+              <a href="#">ГЛАВНАЯ
+              </a>
+            </div>
+            <div class="levels-item levels-item-active">
+              <a href="#">МАГАЗИН
+              </a>
+            </div>
+            <div class="levels-item levels-item-active">СРЕДСТВА ДЛЯ УХОДА
+            </div>
+          </div>
+        </section>
+        <div class="filtr">
+          <section class="producers">
+            <h3>ПРОИЗВОДИТЕЛИ:
+            </h3>
+            <ul class="producers-list">
+              <li class="producers-list-item">
+                <label class="producers-name">
+                  <input type="checkbox">BAXTER OF CALIFORNIA
+                </label>
+              </li>
+              <li class="producers-list-item">
+                <label class="producers-name">
+                  <input type="checkbox">MR NATTY
+                </label>
+              </li>
+              <li class="producers-list-item">
+                <label class="producers-name">
+                  <input type="checkbox">SUAVECITO
+                </label>
+              </li>  
+              <li class="producers-list-item">
+                <label class="producers-name">
+                  <input type="checkbox">MALIN+GOETZ
+                </label>
+              </li>
+              <li class="producers-list-item">
+                <label class="producers-name">
+                  <input type="checkbox">MURRAY'S
+                </label>
+              </li>
+              <li class="producers-list-item">
+                <label class="producers-name">
+                  <input type="checkbox">AMERICAN CREW
+                </label>
+              </li>
+            </ul>
+          </section>
+          <section class="group">
+            <h3>ГРУППЫ ТОВАРОВ:
+            </h3>
+            <ul class="group-goods">
+              <li class="group-item">
+                <label class="group-name">
+                  <input type="checkbox">БРИТВЕННЫЕ ПРИНАДЛЕЖНОСТИ
+                </label>
+              </li>
+              <li class="group-item">
+                <label class="group-name">
+                  <input type="checkbox">СРЕДСТВА ДЛЯ УХОДА
+                </label>
+              </li>
+              <li class="group-item">
+                <label class="group-name">
+                  <input type="checkbox">АКСЕССУАРЫ
+                </label>
+              </li>
+            </ul>
+            <button class="show">ПОКАЗАТЬ
+            </button>
+          </section>
+        </div>
+        <div class="gallery">
+          <section class="goods">
+            <div class="goods-item">
+              <img src="img/index-logo.png" width="10" height="10" alt="Набор для путешествия BAXTER OF CALIFORNIA">Набор для путешествия &quot;BAXTER OF&nbsp;CALIFORNIA" 
+              <div class="price-number">2 900 РУБ.
+              </div> 
+              <a class="btn buy" href="#">КУПИТЬ
+              </a>
+            </div>
+            <div class="goods-item">
+              <img src="img/index-logo.png" width="10" height="10" alt="Увлажняющий кондиционер BAXTER OF CALIFORNIA">Увлажняющий кондиционер &laquo;BAXTER OF&nbsp;CALIFORNIA&raquo; 
+              <div class="price-number">750 РУБ.
+              </div>
+              <a class="btn buy" href="#">КУПИТЬ
+              </a>
+            </div>
+            <div class="goods-item">
+              <img src="img/index-logo.png" width="10" height="10" alt="Гель для волос SUAVECITO">Гель для волос &laquo;SUAVECITO&raquo;
+              <div class="price-number">290 РУБ.
+              </div>
+              <a class="btn buy" href="#">КУПИТЬ
+              </a> 
+            </div>
+            <div class="goods-item">
+              <img src="img/index-logo.png" width="10" height="10" alt="Глина для укладки волос AMERICAN CREW">Глина для укладки волос &laquo;AMERICAN CREW&raquo; 
+              <div class="price-number">500 РУБ.
+              </div>
+              <a class="btn buy" href="#">КУПИТЬ
+              </a> 
+            </div>
+            <div class="goods-item">
+              <img src="img/index-logo.png" width="10" height="10" alt="Гель для волос AMERICAN CREW">Гель для волос &laquo;AMERICAN CREW&raquo;
+              <div class="price-number">300 РУБ.
+              </div>
+              <a class="btn buy" href="#">КУПИТЬ
+              </a> 
+            </div>
+            <div class="goods-item">
+              <img src="img/index-logo.png" width="10" height="10" alt="Набор для бритья BAXTER OF CALIFORNIA">Набор для бритья &laquo;BAXTER OF&nbsp;CALIFORNIA&raquo; 
+              <div class="price-number">3 900 РУБ.
+              </div>
+              <a class="btn buy" href="#">КУПИТЬ
+              </a> 
+            </div>
+            <div class="pages">
+              <div class="pages-item pages-item-active">
+                <a class="pages-number" href="#">1
+                </a>
+              </div>
+              <div class="pages-item pages-item-active">
+                <a class="pages-number" href="#">2
+                </a>
+              </div>
+              <div class="pages-item pages-item-active">
+                <a class="pages-number" href="#">3
+                </a>
+              </div>
+              <div class="pages-item pages-item-active">
+                <a class="pages-number" href="#">4
+                </a>
+              </div>
+            </div>
+          </section>  
+        </div>
       </div>
-    </div>
-	<div class="goods-item">
-      <div>
-		<img scr="img/index-logo.png" width="10" height="10" alt="Гель для волос "SUAVECITO""> Гель для волос "SUAVECITO" 
-		<div>290 РУБ.</div>
-		<a href="#">КУПИТЬ</a> 
+    </main>
+    <footer>
+      <div class="container">
+        <div class="info">
+          <span class="footer-text name-footer">БАРБЕРШОП &laquo;БОРОДИНСКИЙ&raquo;
+          </span> 
+          <span class="footer-text address-footer">АДРЕС: Г.САНКТ-ПЕТЕРБУРГ,УЛ.Б.КОНЮШЕННАЯ,Д. 19/8
+          </span>
+          <a class="footer-text how-find-footer" href="#">КАК НАС НАЙТИ?
+          </a>
+          <span class="footer-text tel-footer">	ТЕЛЕФОН:
+            <a href="tel:+74956660266">
+            </a>
+          </span>
+        </div>
+        <div class="social-media">
+          <span class="footer-text be-friend">ДАВАЙТЕ ДРУЖИТЬ!
+          </span>
+          <div class="social-media-link">
+            <img scr="img/index-logo.png" width="10" height="10">
+            <a href="#">ВКонтакте
+            </a>
+          </div>
+          <div class="social-media-link">
+            <img scr="img/index-logo.png" width="10" height="10">
+            <a href="#">Facebook
+            </a>
+          </div>
+          <div class="social-media-link">
+            <img scr="img/index-logo.png" width="10" height="10">
+            <a href="#">Instagram
+            </a>
+          </div>
+        </div>
+        <div class="htmlacademy">
+          <span>РАЗРАБОТАНО:
+          </span>
+          <a href="https://htmlacademy.ru/" target="blank">HTMLACADEMY.RU
+          </a> 
+        </div>
       </div>
-	</div>
-	<div class="goods-item">
-      <div>
-        <img scr="img/index-logo.png" width="10" height="10" alt="Глина для укладки волос "AMERICAN CREW""> Глина для укладки волос "AMERICAN CREW" 
-		<div>500 РУБ.</div>
-		<a href="#">КУПИТЬ</a> 
-      </div>
-	</div>
-	<div class="goods-item">
-      <div>
-		<img scr="img/index-logo.png" width="10" height="10" alt="Гель для волос "AMERICAN CREW""> Гель для волос "AMERICAN CREW" 
-		<div>300 РУБ.</div>
-		<a href="#">КУПИТЬ</a> 
-      </div>
-	</div>
-	<div class="goods-item">
-      <div>
-		<img scr="img/index-logo.png" width="10" height="10" alt="Набор для бритья "BAXTER OF CALIFORNIA""> Набор для бритья "BAXTER OF CALIFORNIA" 
-		<div>3 900 РУБ.</div>
-		<a href="#">КУПИТЬ</a> 
-      </div>
-	</div>
-	<div class="pages">
-      <ul>
-		<li class="pages-item"><a href="#">1</a></li>
-		<li class="pages-item"><a href="#">2</a></li>
-		<li class="pages-item"><a href="#">3</a></li>
-		<li class="pages-item"><a href="#">4</a></li>
-     </ul>
-	</div>
-    </section>
-</main>
-<fotter>
-  <div class="info">
-    <p>БАРБЕРШОП "БОРОДИНСКИЙ"<br> 
-	АДРЕС: Г.САНКТ-ПЕТЕРБУРГ,УЛ.Б.КОНЮШЕННАЯ,Д. 19/8<br>
-	  <a href="#">КАК НАС НАЙТИ?</a><br>
-	ТЕЛЕФОН: +7 (495) 666-02-66
-	</p>
-  </div>
-  <div class="socialmedia">
-    <span>ДАВАЙТЕ ДРУЖИТЬ!</span>
-      <ul>
-		<li><img scr="img/index-logo.png" width="10" height="10"><a href="#">ВКонтакте</a></li>
-		<li><img scr="img/index-logo.png" width="10" height="10"><a href="#">Facebook</a></li>
-		<li><img scr="img/index-logo.png" width="10" height="10"><a href="#">Instagram</a></li>
-      </ul>
-  </div>
-  <div class="htmlacademy">
-	<span>РАЗРАБОТАНО:</span>
-	<div><a href="https://htmlacademy.ru/">HTMLACADEMY.RU</a></div>
-  </div>
-</fotter>
-</container>
-</body>
+    </footer>
+  </body>
 </html>
